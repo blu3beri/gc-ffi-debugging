@@ -1,0 +1,14 @@
+{
+  "name": "sample-caller",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ffi-napi": "4.0.3",
+    "ref-napi": "3.0.3",
+    "v8-profiler-next": "1.9.0"
+  }
+}
