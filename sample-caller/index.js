@@ -7,7 +7,7 @@ const ffi = require('ffi-napi')
 prof.setGenerateType(1)
 const title = `prof-${new Date().toUTCString().replaceAll(" ","")}`
 
-const libdebug = ffi.Library('../target/debug/libgc_ffi_debugging.dylib', {
+const libdebug = ffi.Library('../target/release/libgc_ffi_debugging.dylib', {
   one_plus_two: ['int', []],
 })
 
